@@ -1,6 +1,6 @@
 # 接口
 
-## 声明：
+## 声明
 ```js
 interface Name {
   last: string

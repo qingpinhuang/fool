@@ -42,7 +42,7 @@ enum Color { Red = 1, Green, Blue }
 // 全部手动赋值
 enum Color { Red = 1, Green = 2, Blue = 4 }
 
-// 枚举既可以通过枚举名找到枚举值，也可以通过枚举值找到枚举名
+// 枚举既可以通过枚举名找到枚举值，也可以通过枚举值找到枚举名（仅数字枚举）
 enum Color { Red, Green, Blue }
 Color.Red == 0
 Color[0] == 'Red'
